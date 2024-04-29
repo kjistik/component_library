@@ -54,3 +54,21 @@ export let dropdownList = [{
     "link": "https://emojipedia.org/fish",
     "text": "🐟🐟🐟🐟"
 }]
+
+export let projectFooter = [
+    {
+        "icon": "/src/lib/icons/github.svg",
+        "link": "https://github.com/kjistik",
+        "desc": "github"
+    },
+    {
+        "icon": "/src/lib/icons/linkedin.svg",
+        "link": "https://linkedin.con/in/kistik",
+        "desc": "linkedin"
+    },
+    {
+        "icon": "/src/lib/icons/envelope-solid.svg",
+        "link": "https://mailto:coronelmartinernesto@gmail.com",
+        "desc": "mail"
+    }
+]

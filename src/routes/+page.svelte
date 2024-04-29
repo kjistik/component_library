@@ -1,6 +1,6 @@
 <script>
     import Tables from "../lib/Tables.svelte";
-    import { list, dropdownList } from "$lib/props.js";
+    import { list, dropdownList, projectFooter } from "$lib/props.js";
     import Dropdown from "$lib/Dropdown.svelte";
     import ProjectFooter from "$lib/ProjectFooter.svelte";
 </script>
@@ -26,5 +26,5 @@
 </div> -->
 
 <div style="width:100%; height:20%;">
-    <ProjectFooter />
+    <ProjectFooter text_color="#000000" {projectFooter} />
 </div>
