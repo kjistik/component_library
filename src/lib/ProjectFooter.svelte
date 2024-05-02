@@ -3,7 +3,8 @@
     export let projectFooter;
     export let text_color = "#000000";
     export let background_color = "#5b7553";
-    console.log(projectFooter);
+    export let left_side = "Martín Ernesto Coronel";
+    export let center_test = "Derechos reservados etc etc etc";
     onMount(() => {
         document.documentElement.style.setProperty("--text-color", text_color);
         document.documentElement.style.setProperty(
@@ -14,8 +15,8 @@
 </script>
 
 <div class="container">
-    <p class="left">Martín Ernesto Coronel</p>
-    <p>Derechos reservados etc etc etc</p>
+    <p class="left">{left_side}</p>
+    <p>{center_test}</p>
     <div class="images">
         <a href={projectFooter[2].link}
             ><img
