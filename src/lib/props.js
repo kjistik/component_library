@@ -63,12 +63,12 @@ export let projectFooter = [
     },
     {
         "icon": "/src/lib/icons/linkedin.svg",
-        "link": "https://linkedin.con/in/kistik",
+        "link": "https://linkedin.com/in/kistik",
         "desc": "linkedin"
     },
     {
         "icon": "/src/lib/icons/envelope-solid.svg",
-        "link": "https://mailto:coronelmartinernesto@gmail.com",
+        "link": "mailto:coronelmartinernesto@gmail.com?subject=Contacto%20profesional",
         "desc": "mail"
     }
 ]
